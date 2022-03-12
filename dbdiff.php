@@ -1,18 +1,18 @@
 <?php
-define('MAIN',[
-    'servername'=>'127.0.0.1',
-    'username'=>'root',
-    'password'=>'',
-    'dbschema'=>'information_schema',
-    'dbname'=>'test'
-]);
-define('SECCOND',[
-    'servername'=>'192.168.1.1',
-    'username'=>'test',
-    'password'=>'test',
-    'dbschema'=>'information_schema',
-    'dbname'=>'test2',
-]);
+const MAIN = [
+    'servername' => '127.0.0.1',
+    'username' => 'root',
+    'password' => '',
+    'dbschema' => 'information_schema',
+    'dbname' => 'tower'
+];
+const SECCOND = [
+    'servername' => '192.168.3.3',
+    'username' => 'samsabz',
+    'password' => 'Abcxyq98sos',
+    'dbschema' => 'information_schema',
+    'dbname' => 'tower',
+];
 ini_set('memory_limit', '-1');
 ini_set('memory_limit', '-1');
 ini_set('max_allowed_packet', 500);
