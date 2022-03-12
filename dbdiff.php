@@ -1,27 +1,17 @@
 <?php
 define('MAIN',[
-    /* 'servername'=>'localhost',
-     'username'=>'root',
-     'password'=>'',
-     'dbschema'=>'information_schema',
-     'dbname'=>'sample',*/
     'servername'=>'127.0.0.1',
     'username'=>'root',
     'password'=>'',
     'dbschema'=>'information_schema',
-    'dbname'=>'tower'
+    'dbname'=>'test'
 ]);
 define('SECCOND',[
-    /*'servername'=>'192.168.11.40',
-    'username'=>'root',
-    'password'=>'3068145',
+    'servername'=>'192.168.1.1',
+    'username'=>'test',
+    'password'=>'test',
     'dbschema'=>'information_schema',
-    'dbname'=>'sepehran',*/
-    'servername'=>'192.168.3.3',
-    'username'=>'samsabz',
-    'password'=>'Abcxyq98sos',
-    'dbschema'=>'information_schema',
-    'dbname'=>'tower',
+    'dbname'=>'test2',
 ]);
 ini_set('memory_limit', '-1');
 ini_set('memory_limit', '-1');
